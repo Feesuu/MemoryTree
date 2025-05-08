@@ -1,0 +1,21 @@
+dataset_name: "test"
+mode: "vallina"
+
+embedding_model_name: "models--BAAI--bge-m3"
+vdb_name: "milvus.db"
+batch_size: 64
+dimension: 1024
+
+collection_name: "memory_tree"
+
+base_threshold: 0.4
+rate: 0.5
+max_depth: 15
+retrieve_threshold: 0.3
+
+llm_parallel_nums: 1
+embedding_batch_size: 256
+top_k_retrieve: 3
+
+save_name: "memtree.pkl"
+
