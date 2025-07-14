@@ -1,5 +1,6 @@
 ​​Unofficial implementation of "From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs"
 
+If you like it, please 🌟 it!
 # MemoryTree
 
 ```
